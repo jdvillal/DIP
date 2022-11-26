@@ -1,0 +1,26 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.main-title {
+  text-align: center;
+}
+
+.myContainer {
+  max-width: 1400px;
+  margin: auto;
+}
+
+@media screen and (min-width: 1450px) {
+  .myContainer{
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1449px) {
+  .myContainer{
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+}
